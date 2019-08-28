@@ -1,0 +1,61 @@
+.clock {
+  font-family: 'Bree Serif', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: cadetblue;
+  color: white;
+  padding: 1%;
+  margin-top: 10%;
+}
+
+#time{
+  display: flex;
+  justify-content: space-between;
+}
+
+#date{
+  display: flex;
+  justify-content: space-between;
+}
+
+#divTab {
+    background-color: coral;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+#tabs {
+    display: flex;
+    font-size: 9px;
+    background-color: white;
+}
+
+#content {
+  text-align: center;
+  margin-top: 7%;
+}
+
+#thisTab {
+  border: groove;
+  width: 33%;
+  text-align: center;
+  background-color: coral;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+
+#noBorder {
+  border: groove;
+  width: 33%;
+  text-align: center;
+  background-color: coral;
+  border-bottom: none;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+
+
